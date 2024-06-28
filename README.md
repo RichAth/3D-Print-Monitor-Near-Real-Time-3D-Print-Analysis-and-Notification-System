@@ -4,7 +4,7 @@ An open-source solution for real-time monitoring and analysis of 3D prints using
 # Project Title: 3D Print Monitoring and Analysis System
 
 ## Summary
-This project provides a comprehensive solution for monitoring and analyzing 3D prints in near real-time using a webcam. The system captures images of the ongoing 3D print, analyzes the image to detect potential issues such as fires, spaghetti stringing, and bed adhesion problems, and sends email notifications in case of detected issues or upon completion of the print.
+This project provides a comprehensive solution for monitoring and analyzing 3D prints in near real-time using a webcam and Ai vision. The system captures images of the ongoing 3D print, analyzes the image to detect potential issues such as fires, spaghetti stringing, and bed adhesion problems, and sends email notifications in case of detected issues or upon completion of the print.
 
 ## Installation
 1. Clone the repository:
