@@ -25,8 +25,10 @@ This project provides a comprehensive solution for monitoring and analyzing 3D p
    - `gmail_password`: Your Gmail password or app-specific password.
    - `recipient_email`: The email address where notifications should be sent.
    - `api_key`: Your OpenAI API key.
+3. Change the "Completed Print" description in the prompt to suit your printer.
+4. Add or remove criteria to determine through vision analysis.
 
-3. Run the main script:
+5. Run the main script:
    ```
    python app.py
    ```
