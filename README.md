@@ -28,7 +28,7 @@ This project provides a comprehensive solution for monitoring and analyzing 3D p
 
 3. Run the main script:
    ```
-   python main.py
+   python app.py
    ```
 
 The script will continuously capture images from the webcam, analyze them for potential 3D printing issues, and send email notifications accordingly.
