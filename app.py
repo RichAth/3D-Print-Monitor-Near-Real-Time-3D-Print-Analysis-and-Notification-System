@@ -15,6 +15,10 @@ recipient_email = 'recipient_email@gmail.com'
 cap = cv2.VideoCapture(0)  # Adjust '0' if you have multiple webcams
 
 def take_photo():
+    # Ensure the photos directory exists
+    if not os.path.exists('photos'):
+        os.makedirs('photos')
+        
     ret, frame = cap.read()
     if not ret:
         print("Failed to grab frame")
